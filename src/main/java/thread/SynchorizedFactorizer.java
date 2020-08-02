@@ -16,6 +16,8 @@ public class SynchorizedFactorizer {
             lastNumber = i;
             lastFactors = factors(i);
         }
+
+        return lastFactors;
     }
 
     private BigInteger[] factors(BigInteger i) {
