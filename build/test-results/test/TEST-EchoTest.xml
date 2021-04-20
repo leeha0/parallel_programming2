@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EchoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-19T16:34:17" hostname="leeha-pc.local" time="0.014">
-  <properties/>
-  <testcase name="givenServerClient_whenServerEchoMessage_thenCorrect" classname="EchoTest" time="0.014"/>
-  <system-out><![CDATA[response=hello
-response=world
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
