@@ -1,6 +1,6 @@
-package liveness;
+package liveness.deadlock;
 
-public class Deadlock2Starter2 {
+public class DeadlockApplication2 {
 
     public static void main(String[] args) {
         // 가끔은 정상 수행, 까끔은 데드락

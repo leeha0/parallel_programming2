@@ -1,4 +1,4 @@
-package liveness;
+package liveness.livelock;
 
 public class Police {
 

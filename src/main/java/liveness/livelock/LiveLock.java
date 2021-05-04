@@ -1,6 +1,6 @@
-package liveness;
+package liveness.livelock;
 
-public class Livelock {
+public class LiveLock {
 
     static final Police police = new Police();
     static final Criminal criminal = new Criminal();

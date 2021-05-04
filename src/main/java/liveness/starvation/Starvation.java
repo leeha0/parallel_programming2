@@ -1,4 +1,4 @@
-package liveness;
+package liveness.starvation;
 
 public class Starvation {
 

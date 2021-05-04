@@ -1,4 +1,4 @@
-package liveness;
+package liveness.starvation;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

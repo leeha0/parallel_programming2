@@ -1,10 +1,9 @@
-package liveness;
+package liveness.deadlock;
 
-public class Deadlock2Starter {
+public class DeadlockApplication {
 
     public static void main(String[] args) {
         // 빠르게 프로그램이 실행되어 정상 종료
-
         Deadlock2 business = new Deadlock2();
 
         Thread t1 = new Thread(new Runnable() {

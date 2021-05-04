@@ -1,4 +1,4 @@
-package liveness;
+package liveness.starvation.solution;
 
 public class QueueObject {
     // 일종의 세마포어

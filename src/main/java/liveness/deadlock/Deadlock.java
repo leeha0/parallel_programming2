@@ -1,4 +1,4 @@
-package liveness;
+package liveness.deadlock;
 
 public class Deadlock {
 

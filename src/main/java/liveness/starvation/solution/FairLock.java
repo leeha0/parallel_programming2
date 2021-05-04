@@ -1,4 +1,4 @@
-package liveness;
+package liveness.starvation.solution;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,8 +20,9 @@ public class FairLock {
 
         while (isLockedForThisThread) {
             synchronized (this) {
+                // 큐에 위치한 최상위 쓰레드만이 락을 걸 수 있다
                 isLockedForThisThread = isLocked || waitingThreads.get(0) != queueObject;
-                if (isLockedForThisThread) {
+                if (!isLockedForThisThread) {
                     isLocked = true;
                     waitingThreads.remove(queueObject);
                     lockingThread = Thread.currentThread();
@@ -42,7 +43,7 @@ public class FairLock {
     }
 
     public void unlock() {
-        if (this.lockingThread != Thread.currentThread()){
+        if (this.lockingThread != Thread.currentThread()) {
             throw new IllegalMonitorStateException("호출 쓰레드가 이 락을 소유하지 않음");
         }
 
