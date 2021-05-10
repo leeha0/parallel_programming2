@@ -1,4 +1,4 @@
-package thread;
+package parallel;
 
 public class NoVisibility {
     private static boolean ready;

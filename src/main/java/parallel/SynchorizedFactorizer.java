@@ -1,6 +1,6 @@
-package thread;
+package parallel;
 
-import thread.annotation.ThreadSafe;
+import parallel.annotation.ThreadSafe;
 
 import java.math.BigInteger;
 

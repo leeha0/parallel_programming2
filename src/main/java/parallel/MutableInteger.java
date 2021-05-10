@@ -1,6 +1,6 @@
-package thread;
+package parallel;
 
-import thread.annotation.NotThreadSafe;
+import parallel.annotation.NotThreadSafe;
 
 @NotThreadSafe
 public class MutableInteger {

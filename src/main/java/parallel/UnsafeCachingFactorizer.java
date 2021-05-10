@@ -1,6 +1,6 @@
-package thread;
+package parallel;
 
-import thread.annotation.NotThreadSafe;
+import parallel.annotation.NotThreadSafe;
 
 import java.math.BigInteger;
 import java.util.concurrent.atomic.AtomicReference;
