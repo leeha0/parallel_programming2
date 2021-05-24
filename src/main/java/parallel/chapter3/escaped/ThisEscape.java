@@ -2,6 +2,8 @@ package parallel.chapter3.escaped;
 
 public class ThisEscape {
 
+    private String secret;
+
     public ThisEscape(EventSource source) {
         source.registerListener(
             // 인자를 통한 부모 클래스 유출
@@ -9,6 +11,7 @@ public class ThisEscape {
             new EventListener() {
                 @Override
                 public void onEvent(Event e) {
+                    System.out.println("secret = " + secret);
                     // doSomething(e);
                 }
             }
