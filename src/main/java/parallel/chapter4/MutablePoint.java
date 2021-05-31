@@ -1,8 +1,8 @@
 package parallel.chapter4;
 
-import parallel.annotation.ThreadSafe;
+import parallel.annotation.NotThreadSafe;
 
-@ThreadSafe
+@NotThreadSafe
 public class MutablePoint {
 
     public int x, y;
