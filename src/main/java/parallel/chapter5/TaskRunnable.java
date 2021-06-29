@@ -2,8 +2,6 @@ package parallel.chapter5;
 
 import java.util.concurrent.BlockingQueue;
 
-import jdk.internal.jline.internal.ShutdownHooks.Task;
-
 public class TaskRunnable implements Runnable {
 
     BlockingQueue<Task> queue;
